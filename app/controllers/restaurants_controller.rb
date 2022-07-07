@@ -8,7 +8,7 @@ class RestaurantsController < ApplicationController
 
     # GET /restaurants/1
     def show
-      @restaurant = Restaurant.find(restaurant_params)
+      @review = Review.new
     end
 
     # GET /restaurants/new
